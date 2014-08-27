@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WebSockets Demo</title>
+
+        <link type="text/css" rel="stylesheet" href="index.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+        <script src="jquery.tinyscrollbar.js"></script>
+        <script src="index.js"></script>
+
+    </head>
+    <body>
+        <section>
+			<div class="scrollbar">
+                <div class="track">
+                    <div class="thumb">
+                        <div class="end">
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div class="viewport">
+	            <div class="overview" id="scroll_chat">
+	            </div>
+			</div>
+		</section>
+    
+        <section>
+            <div id="alert"></div>
+        </section>
+        <section>
+            <span id="status">Connecting...</span>
+            <input type="text" id="input_content" disabled="disabled" />
+        </section>
+    </br>
+        <section>
+            <div id="errors"></div>
+        </section>
+    </body>
+</html>
